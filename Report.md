@@ -9,4 +9,4 @@ Batch size alterations, learning rate scheduler, training on different epochs we
 The resultant best validation accuracy peaked at 70%, validation loss=0.87    [batch size=16, epochs=15]
 
 The model was finally uploaded to the test dataset but resulted in some error.
-The predicted labels all consisted of the label 'other' which is clearly due to the majority of its occurrence in train_dataset. Data augmentation and class weights were applied but it did not help much.
+The predicted labels all consisted of the label 'other' which is clearly due to the majority of its occurrence in train_dataset. Data augmentation and class weights were applied so that other classes be recognized but it did not help much. As I was unable to find out the issue behind this problem, i left it as it is.
